@@ -4,9 +4,15 @@
 https://hgrid.io/documentation/integrate/#11ty
 
 ## Repository
-https://github.com/ahansson/hgrid-css-11ty
+https://github.com/ahansson/hgrid-css-eleventy
 
-Minimal setup of 11ty with Sass compilation for `hgrid-css`. Builds final css with Autoprefixer and PostCSS minification.
+Minimal setup of 11ty with Sass compilation for `hgrid-css`. Builds final CSS with Autoprefixer and PostCSS minification.
+
+## What is hgrid-css ?
+
+A lightweight and practical CSS utility kit with zero config and a flat learning curve.
+
+Repo: https://github.com/ahansson/hgrid-css
 
 ## Installation
 
