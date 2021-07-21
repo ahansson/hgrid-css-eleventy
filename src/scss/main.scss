@@ -1,0 +1,15 @@
+@use './../../node_modules/hgrid-css/sass/hgrid.scss' with (
+  $turn-off-link-decoration: true,
+  $use-global-link-underlines: true,
+  $link-color: #fff,
+  $link-underline-color: var(--theme-color-tertiary),
+  $body-bg: #1b0031
+);
+
+h1 {
+  color: #eddaff;
+}
+
+h3, h5 {
+  color: #adb2fa
+}
