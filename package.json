@@ -8,9 +8,9 @@
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass --no-source-map --style=compressed src/scss/main.scss:_public/css/style.css",
     "build:eleventy": "eleventy",
-    "prefix:css": "postcss --use autoprefixer -b 'last 2 versions' _public/css/style.min.css -o _public/css/style.css",
+    "prefix:css": "postcss --use autoprefixer --no-map -b 'last 2 versions' _public/css/style.css -o _public/css/style.css",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:*"
+    "build": "npm-run-all build:* prefix:css"
   },
   "keywords": [],
   "author": "",
