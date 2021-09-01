@@ -1,6 +1,13 @@
 @use './../../node_modules/hgrid-css/sass/hgrid.scss' with (
   $turn-off-link-decoration: true,
   $use-global-link-underlines: true,
+  $include-grid: false,
+  $include-fade: false,
+  $include-flash: false,
+  $include-rotate: false,
+  $include-scroll: false,
+  $include-spinner: false,
+  $include-transition: false,
   $link-color: #fff,
   $link-underline-color: var(--theme-color-tertiary),
   $body-bg: #1b0031
