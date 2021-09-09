@@ -1,5 +1,5 @@
 # Integrating [hgrid-css](https://github.com/ahansson/hgrid-css) in an Eleventy (11ty) project
-<p><img src="/assets/img/screenshot.png" alt="Screenshot" title="Screenshot"></p>
+<p><img src="./assets/img/screenshot.png" alt="Screenshot" title="Screenshot"></p>
 
 ## Documentation
 https://hgrid.io/documentation/integrate/#11ty
